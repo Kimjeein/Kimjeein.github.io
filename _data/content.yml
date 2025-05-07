@@ -70,33 +70,21 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
-
       - label: "Python" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "75" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
+      - label: "Java" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "75" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
-
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
+      - label: "C" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "90" #0-100 progress in %
-
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
@@ -107,9 +95,9 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
+      - name: "한국폴리텍 강서캠퍼스"
+        subname: "사이버보안과"
+        period: "2024 - 2026"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
       - name: "Lviv National Academy of Arts"
@@ -173,70 +161,6 @@ testimonials:
       role: "Photographer"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-
-### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
-
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Full Time"
-      center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
@@ -269,7 +193,7 @@ contacts:
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+82 010 - 2735 - 9086"
+      text: "+82 10 - 2735 - 9086"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
