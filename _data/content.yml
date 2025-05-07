@@ -257,7 +257,7 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "경기도 수원"
 
     - label: "Freelance"
       icon: "far fa-user"
@@ -265,7 +265,7 @@ contacts:
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "jeein0416@naver.com"
 
     - label: "Phone"
       icon: "far fa-address-book"
