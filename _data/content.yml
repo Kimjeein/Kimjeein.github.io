@@ -72,19 +72,19 @@ skills:
     items:
       - label: "Python" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        value: "80" #0-100 progress in %
 
   column2:
     items:
       - label: "Java" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        value: "70" #0-100 progress in %
 
   column3:
     items:
       - label: "C" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+        value: "75" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
