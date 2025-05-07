@@ -6,7 +6,7 @@
 ### Hero [ hero-image ]
 hero:
   image: "assets/img/profile.new.png"
-  image_alt: "Zoé Miller"
+  image_alt: "Kim Jeein"
   title: "<b>Kim</b> Jeein"
   before_title: "안녕하세요, <b>제 이름은</b>"
   after_title: "I am <strong>Cyber Security Professional</strong>"
