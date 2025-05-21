@@ -185,11 +185,11 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-<<<<<<< HEAD
+
       text: "GYEONGGI-DO SUWON"
-=======
+
       text: "경기도 수원"
->>>>>>> a079d0f029d5b2ffc9dadf57e0f979074b89f870
+
 
     - label: "Freelance"
       icon: "far fa-user"
