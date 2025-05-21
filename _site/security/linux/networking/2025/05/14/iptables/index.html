@@ -3,21 +3,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Portfolio | Luique - CV Resume &amp; Personal Portfolio Jekyll Theme</title>
+<title>[보안 실습] iptables를 이용한 방화벽 구성 | Luique - CV Resume &amp; Personal Portfolio Jekyll Theme</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Portfolio" />
+<meta property="og:title" content="[보안 실습] iptables를 이용한 방화벽 구성" />
 <meta name="author" content="Luique" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes" />
-<meta property="og:description" content="Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes" />
-<link rel="canonical" href="http://localhost:4000/works/" />
-<meta property="og:url" content="http://localhost:4000/works/" />
+<meta name="description" content="최근 리눅스 기반의 가상 네트워크 환경에서 iptables를 이용한 방화벽 구성 실습을 진행했다. 이 포스트에서는 실습에 사용된 네트워크 구성, 보안 정책, iptables 스크립트 구조, 느낀 점 등을 정리한다." />
+<meta property="og:description" content="최근 리눅스 기반의 가상 네트워크 환경에서 iptables를 이용한 방화벽 구성 실습을 진행했다. 이 포스트에서는 실습에 사용된 네트워크 구성, 보안 정책, iptables 스크립트 구조, 느낀 점 등을 정리한다." />
+<link rel="canonical" href="http://localhost:4000/security/linux/networking/2025/05/14/iptables/" />
+<meta property="og:url" content="http://localhost:4000/security/linux/networking/2025/05/14/iptables/" />
 <meta property="og:site_name" content="Luique - CV Resume &amp; Personal Portfolio Jekyll Theme" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-14T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Portfolio" />
+<meta property="twitter:title" content="[보안 실습] iptables를 이용한 방화벽 구성" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Luique"},"description":"Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes","headline":"Portfolio","url":"http://localhost:4000/works/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luique"},"dateModified":"2025-05-14T00:00:00+09:00","datePublished":"2025-05-14T00:00:00+09:00","description":"최근 리눅스 기반의 가상 네트워크 환경에서 iptables를 이용한 방화벽 구성 실습을 진행했다. 이 포스트에서는 실습에 사용된 네트워크 구성, 보안 정책, iptables 스크립트 구조, 느낀 점 등을 정리한다.","headline":"[보안 실습] iptables를 이용한 방화벽 구성","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/security/linux/networking/2025/05/14/iptables/"},"url":"http://localhost:4000/security/linux/networking/2025/05/14/iptables/"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost%3A0%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900%7CCaveat%3A400%3B500%3B600%3B700&#038;display=swap" type="text/css" media="all" >
@@ -43,7 +44,7 @@
   <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Luique - CV Resume &amp; Personal Portfolio Jekyll Theme" /></head>
 
 
-  <body class=" light-skin">
+  <body class=" page light-skin">
 
     <div class="container-page ">
 
@@ -172,7 +173,7 @@
 												<ul class="sub-menu">
 													
 													
-													<li class="menu-item current-menu-item">
+													<li class="menu-item">
 														<a class="splitting-text-anim-1" data-splitting="chars" href="/works/">Works</a>
 													</li>
 													
@@ -222,205 +223,210 @@
 	</div>
 </header>
 <!-- Wrapper -->
-  		<div class="wrapper">
+  		<div class="wrapper single-post">
         
+
+
 
 
 
 <!-- Section Started Heading -->
 <section class="section section-inner started-heading">
-  <div class="container">
+	<div class="container">
 
-    <!-- Heading -->
-    <div class="m-titles align-center">
-      <h1 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-        <span>Portfolio</span>
-      </h1>
-      <div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-        <span>my <b>Cases</b></span>
-      </div>
-    </div>
+		<!-- Heading -->
+		<div class="m-titles align-center">
+			<div class="m-category scrolla-element-anim-1 scroll-animate" data-animate="active">
+				<a href="blog.html">Branding</a>, <a href="blog.html">UI Design</a>
+				
+				
+				/ 2025-05-14 / by <span class="author">Luique</span>
+			</div>
+			<h1 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active">
+				[보안 실습] iptables를 이용한 방화벽 구성
+			</h1>
+		</div>
 
-  </div>
+	</div>
 </section>
 
-<!-- Section - Works -->
-<section class="lui-section">
+<!-- Single Post Image -->
+<div class="section section-inner m-image-large">
+	<div class="container">
+		<div class="v-line-right v-line-top"><div class="v-line-block"><span></span></div></div>
+	</div>
+	<div class="image">
+		
+		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url();"></div>
+		
+	</div>
+</div>
 
-  <!-- Works -->
-  <div class="v-line v-line-right v-line-top">
-    <div class="container">
+<!-- Section - Blog -->
+<section class="section section-inner m-archive">
+	<div class="container">
 
-      <div class="works-box works-list">
-        <div class="filter-links scrolla-element-anim-1 scroll-animate" data-animate="active">
-          <a href="#" class="lui-subtitle active" data-href=".works-col">All</a>
-          
-          <a href="#" class="lui-subtitle" data-href=".sorting-ui-ux-design">UI UX Design</a>
-          
-          <a href="#" class="lui-subtitle" data-href=".sorting-photography">Photography</a>
-          
-          <a href="#" class="lui-subtitle" data-href=".sorting-development">Development</a>
-          
-          <a href="#" class="lui-subtitle" data-href=".sorting-branding">Branding</a>
-          
-        </div>
-        <div class="works-items works-list-items row">
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/explore">
-                    <img decoding="async" src="/assets/img/works/work7.jpg" alt="Explore" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">Development</span>
-                <h5 class="name">
-                  <a href="/works/explore">Explore</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/explore" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-ui-ux-design">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/gooir">
-                    <img decoding="async" src="/assets/img/works/work4.jpeg" alt="Gooir" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">UI UX Design</span>
-                <h5 class="name">
-                  <a href="/works/gooir">Gooir</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/gooir" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-photography">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/kana">
-                    <img decoding="async" src="/assets/img/works/work6.jpeg" alt="Kana" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">Photography</span>
-                <h5 class="name">
-                  <a href="/works/kana">Kana</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/kana" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-photography">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/mozar">
-                    <img decoding="async" src="/assets/img/works/work1.jpeg" alt="Mozar" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">Photography</span>
-                <h5 class="name">
-                  <a href="/works/mozar">Mozar</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/mozar" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/stay-fit">
-                    <img decoding="async" src="/assets/img/works/work4.jpeg" alt="Stay Fit" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">Development</span>
-                <h5 class="name">
-                  <a href="/works/stay-fit">Stay Fit</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/stay-fit" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-          <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding">
-            <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <div class="image">
-                <div class="img">
-                  <a href="/works/zorro">
-                    <img decoding="async" src="/assets/img/works/work5.jpeg" alt="Zorro" >
-                    <span class="overlay"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="desc">
-                <span class="category">Branding</span>
-                <h5 class="name">
-                  <a href="/works/zorro">Zorro</a>
-                </h5>
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                <a href="/works/zorro" class="lnk">View Project</a>
-              </div>
-              <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
 
-      <div class="lui-bgtitle">
-        <span>Portfolio</span>
-      </div>
+				<!-- content -->
+				<div class="description">
+					<div class="post-content scrolla-element-anim-1 scroll-animate" data-animate="active">
+						<p>최근 리눅스 기반의 가상 네트워크 환경에서 <code class="language-plaintext highlighter-rouge">iptables</code>를 이용한 방화벽 구성 실습을 진행했다. 이 포스트에서는 실습에 사용된 네트워크 구성, 보안 정책, iptables 스크립트 구조, 느낀 점 등을 정리한다.</p>
 
-    </div>
-  </div>
+<h2 id="-1-실습-환경-구성">✅ 1. 실습 환경 구성</h2>
 
+<ul>
+  <li>내부망 (INTRA): <code class="language-plaintext highlighter-rouge">172.16.90.0/24</code></li>
+  <li>DMZ (DMZ): <code class="language-plaintext highlighter-rouge">172.16.190.0/24</code></li>
+  <li>외부망 (WAN): NAT를 통한 인터넷 연결</li>
+  <li>주요 장비:
+    <ul>
+      <li>PC A: <code class="language-plaintext highlighter-rouge">172.16.90.200</code></li>
+      <li>PC B: <code class="language-plaintext highlighter-rouge">172.16.90.250</code></li>
+      <li>SSH 서버: <code class="language-plaintext highlighter-rouge">172.16.190.200</code></li>
+      <li>HTTP 서버: <code class="language-plaintext highlighter-rouge">172.16.190.250</code></li>
+      <li>DNS 서버: <code class="language-plaintext highlighter-rouge">8.8.8.8</code></li>
+      <li>방화벽 VM (iptables 실행): 3개의 NIC 사용</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="-2-주요-보안-정책">🔒 2. 주요 보안 정책</h2>
+
+<ul>
+  <li>외부(EXT) → 내부(INTRA) 접근 전면 차단</li>
+  <li>외부 → DMZ는 HTTP(80)만 허용</li>
+  <li>내부 → 외부: DNS, HTTP 허용</li>
+  <li>내부 → SSH 서버 접근 허용</li>
+  <li>내부 간 ping 가능, 외부 ping 차단</li>
+</ul>
+
+<h2 id="-3-iptables-스크립트-핵심">🛠 3. iptables 스크립트 핵심</h2>
+
+<p>```bash</p>
+<h1 id="변수-정의">변수 정의</h1>
+<p>IN_IF=”eth1”
+DMZ_IF=”eth2”
+EXT_IF=”eth0”
+PC_A=”172.16.90.200”
+HTTP_SERVER=”172.16.190.250”</p>
+
+<h1 id="정책-초기화">정책 초기화</h1>
+<p>iptables -F
+iptables -X
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT ACCEPT</p>
+
+<h1 id="내부--외부-dns-허용">내부 → 외부 DNS 허용</h1>
+<p>iptables -A FORWARD -s $PC_A -p udp –dport 53 -d 8.8.8.8 -j ACCEPT</p>
+
+
+						<!--
+						<div class="social-share" data-title="[보안 실습] iptables를 이용한 방화벽 구성" data-url="http://localhost:4000/security/linux/networking/2025/05/14/iptables/">
+							<span>Share:</span>
+							<a class="share-btn share-btn-facebook share-btn-1" title="Share on Facebook">
+									<i class="fab fa-facebook"></i>
+							</a>
+							<a class="share-btn share-btn-twitter share-btn-2" title="Share on Twitter">
+									<i class="fab fa-twitter"></i>
+							</a>
+							<a class="share-btn share-btn-linkedin share-btn-3" title="Share on Linkedin">
+									<i class="fab fa-linkedin"></i>
+							</a>
+							<a class="share-btn share-btn-reddit share-btn-4" title="Share on Reddit">
+									<i class="fab fa-reddit"></i>
+							</a>
+							<a class="share-btn share-btn-pinterest share-btn-5" title="Share on Pinterest">
+									<i class="fab fa-pinterest"></i>
+							</a>
+						</div>
+						-->
+
+						
+						
+						<span class="tags-links">
+							<span>Tags:</span>
+							
+							<a href="/tags/iptables" rel="tag">iptables</a>
+							
+							<a href="/tags/firewall" rel="tag">firewall</a>
+							
+							<a href="/tags/ubuntu" rel="tag">ubuntu</a>
+							
+							<a href="/tags/실습" rel="tag">실습</a>
+							
+						</span>
+						
+					</div>
+				</div>
+
+				
+				<!-- Comments -->
+				<div class="comments-post scrolla-element-anim-1 scroll-animate" data-animate="active">
+					<div class="section__comments">
+
+						<div class="m-titles">
+							<div class="m-title align-left">Comments</div>
+						</div>
+
+						<div class="comments">
+							<div id="disqus_thread"></div>
+
+							
+								<script>
+									var disqus_config = function () {
+										this.page.url = "http://localhost:4000/security/linux/networking/2025/05/14/iptables/";  /* Replace PAGE_URL with your page's canonical URL variable */
+										this.page.identifier = "/security/linux/networking/2025/05/14/iptables"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+									};
+									(function() { /* DON'T EDIT BELOW THIS LINE */
+										var d = document, s = d.createElement('script');
+										s.src = 'https://glitche-jekyll-theme.disqus.com/embed.js';
+										s.setAttribute('data-timestamp', +new Date());
+										(d.head || d.body).appendChild(s);
+									})();
+								</script>
+								<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+							
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="v-line-left v-line-top"><div class="v-line-block"><span></span></div></div>
+
+	</div>
 </section>
+
+
+<!-- Section Navigation -->
+<div class="section section-inner m-page-navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+
+				<div class="h-titles h-navs">
+					
+					<a href="/music/2020/08/05/by-spite-about/">
+						<span class="nav-arrow scrolla-element-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+							Prev
+						</span>
+						<span class="h-title splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">
+							By spite about do of do allow
+						</span>
+					</a>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
 
       </div>
 
