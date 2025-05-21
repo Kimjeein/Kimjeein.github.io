@@ -90,7 +90,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+<<<<<<< HEAD
   x64-mingw-ucrt
+=======
+  x86_64-linux
+>>>>>>> a079d0f029d5b2ffc9dadf57e0f979074b89f870
 
 DEPENDENCIES
   jekyll

@@ -5,7 +5,11 @@
 
 ### Hero [ hero-image ]
 hero:
+<<<<<<< HEAD
   image: "assets/img/profile_new.png"
+=======
+  image: "assets/img/profile.png"
+>>>>>>> a079d0f029d5b2ffc9dadf57e0f979074b89f870
   image_alt: "Kim Jeein"
   title: "<b>Kim</b> Jeein"
   before_title: "안녕하세요, <b>제 이름은</b>"
@@ -181,7 +185,11 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
+<<<<<<< HEAD
       text: "GYEONGGI-DO SUWON"
+=======
+      text: "경기도 수원"
+>>>>>>> a079d0f029d5b2ffc9dadf57e0f979074b89f870
 
     - label: "Freelance"
       icon: "far fa-user"
