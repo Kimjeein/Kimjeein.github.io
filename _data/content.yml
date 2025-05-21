@@ -185,11 +185,7 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-
-      text: "GYEONGGI-DO SUWON"
-
-      text: "경기도 수원"
-
+      text: "Suwon, Gyeonggi-do"
 
     - label: "Freelance"
       icon: "far fa-user"
