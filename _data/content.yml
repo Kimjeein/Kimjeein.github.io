@@ -99,15 +99,16 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "한국폴리텍 강서캠퍼스"
-        subname: "사이버보안과"
+      - name: "KOREA POLYTECHNICS"
+        subname: "Department of Cyber Security"
         period: "2024 - 2026"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "Focusing on cybersecurity fundamentals including network configuration, ethical hacking, and digital forensics.
+              Gaining practical experience through hands-on labs and team projects involving firewalls and vulnerability analysis."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - #name: "Lviv National Academy of Arts"
+        #subname: "Faculty of Design"
+        #period: "2012 - 2014"
+        #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
       - name: "IT Future"
         subname: "High School"
