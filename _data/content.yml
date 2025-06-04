@@ -114,7 +114,7 @@ resume:
         #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
-    title: "Experience"
+    title: "미래에 하고 싶은 일일"
     items:
       - name: "UI Head &amp; Manager"
         subname: "Soft Tech Inc."
@@ -134,7 +134,7 @@ resume:
 
 ### Testimonials [ testimonials ]
 testimonials:
-  title: "Testimonials"
+  title: "Testimonials 팀원 피드백"
   subtitle: "what <b>Customers Say</b>"
   bg_title: "Reviews"
 
@@ -188,7 +188,7 @@ contacts:
 
     - label: "Freelance"
       icon: "far fa-user"
-      text: "Available Right Now"
+      text: "Open to collaboration"
 
     - label: "Email"
       icon: "far fa-envelope"
