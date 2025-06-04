@@ -9,28 +9,28 @@ settings:
 ### Preloader
 preloader:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    image: "assets/img/jeein_logo"
+    alt: "KJI"
 
 ### Header
 header:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    image: "assets/img/jeein_logo"
+    alt: "KJI"
 
 ### Social
-social:
-  - title: "Twitter"
-    icon: "fab fa-twitter"
-    url: "http://twitter.com"
+#social:
+  #- title: "Twitter"
+    #icon: "fab fa-twitter"
+    #url: "http://twitter.com"
 
-  - title: "Dribbble"
-    icon: "fab fa-dribbble"
-    url: "http://dribbble.com"
+  #- title: "Dribbble"
+    #icon: "fab fa-dribbble"
+    #url: "http://dribbble.com"
 
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+  #- title: "Behance"
+    #icon: "fab fa-behance"
+    #url: "http://behance.com"
 
 ### Footer
 footer:
