@@ -9,13 +9,13 @@ settings:
 ### Preloader
 preloader:
   logo:
-    image: "assets/img/jeein_logo"
+    image: "assets/img/jeein_logo.png"
     alt: "KJI"
 
 ### Header
 header:
   logo:
-    image: "assets/img/jeein_logo"
+    image: "assets/img/jeein_logo.png"
     alt: "KJI"
 
 ### Social
