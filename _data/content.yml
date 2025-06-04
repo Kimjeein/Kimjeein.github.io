@@ -114,22 +114,22 @@ resume:
         #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
-    title: "미래에 하고 싶은 일일"
+    title: "Areas of Interest"
     items:
       - name: "UI Head &amp; Manager"
         subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
+        #period: "2020 - <b>Present</b>"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #- name: "UI / UX Specialist"
+        #subname: "Kana Design Studio"
+        #period: "2018 - 2020"
+        #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #- name: "Plugins Developer"
+        #subname: "Fiverr.com"
+        #period: "2016 - 2018"
+        #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Testimonials [ testimonials ]
