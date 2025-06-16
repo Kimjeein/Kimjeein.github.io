@@ -73,13 +73,13 @@ skills:
   column1:
     items:
       - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "대학에서 기본 문법부터 자료구조, 파일 처리, 예외 처리 등을 배우며 Python의 기초를 탄탄히 다졌습니다. 다양한 과제를 통해 실제로 코드를 작성해본 경험이 있고, 간단한 자동화 스크립트나 데이터 처리, 파일 입출력 등의 작업을 Python으로 구현해본 적이 있습니다. 지금까지 가장 많이 사용해본 언어이며, 꾸준한 프로젝트를 통해 활용 능력을 키워가고 있습니다."
         value: "85" #0-100 progress in %
 
   column2:
     items:
       - label: "Java" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "기초적인 문법 위주로 Java를 학습해본 경험이 있으며, 간단한 프로그램을 작성해보며 기본 개념을 익혔습니다."
         value: "60" #0-100 progress in %
 
   column3:
@@ -97,11 +97,10 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "KOREA POLYTECHNICS"
-        subname: "Department of Cyber Security"
+      - name: "한국폴리텍 서울강서캠퍼스스"
+        subname: "사이버보안과과"
         period: "2024 - 2026"
-        text: "Focusing on cybersecurity fundamentals including network configuration, ethical hacking, and digital forensics.
-              Gaining practical experience through hands-on labs and team projects involving firewalls and vulnerability analysis."
+        text: "네트워크 구성, 방화벽 설정, 취약점 분석 등 사이버보안의 기초를 중심으로 학습하며, 관련 실습과 팀 프로젝트를 통해 실무 역량을 키우고 있습니다."
 
       #- name: "Lviv National Academy of Arts"
         #subname: "Faculty of Design"
