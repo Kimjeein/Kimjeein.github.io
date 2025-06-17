@@ -1,3 +1,4 @@
+---
 # preview details
 layout: works-single
 title: 랜섬웨어 프로젝트: 구조 분석과 대응 방안
@@ -43,3 +44,4 @@ description2:
 video:
   poster: assets/img/works/ransom.png
   id: Gu6z6kIukgg
+---
