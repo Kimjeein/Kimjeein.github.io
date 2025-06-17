@@ -4,12 +4,12 @@ layout: works-single
 title: privacy policy
 category: privacypolicy
 category_slug: privacypolicy
-image: assets/img/works/hospital/001.png
+image: assets/img/works/children.png
 short_description:  어린이 환자를 위한 병원이 개인정보를 어떻게 수집, 이용, 보관, 파기하는지를 법적 기준에 맞게 정리하고, 자가진단 항목에 대해서 정리
 
 # full details
 live_preview: https://bslthemes.com
-full_image: assets/img/works/hospital/002.png
+full_image: assets/img/works/children.png
 info:
   - label: Year
     value: 2025
