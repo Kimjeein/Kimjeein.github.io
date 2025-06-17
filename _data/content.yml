@@ -148,28 +148,28 @@ testimonials:
   items:
     - image: "assets/img/testimonials/testimonials.jpg"
       name: "KU"
-      role: "CEO Company"
+      #role: "CEO Company"
       text: "프로젝트에서 샌드박스 탐지, 보안 프로그램 종료 시도, 난독화 등 가장 복잡하고 핵심적인 부분을 맡아 훌륭하게 수행했습니다. 맡은 일에 대한 높은 책임감과 전문성을 바탕으로 정해진 기간 내에 성실히 마무리하는 모습을 보여주었습니다. 첫 프로젝트임에도 불구하고 흔들림 없이 자기 관리를 잘 해냈고, 팀 전체 일정에 어떠한 영향도 주지 않는 안정적인 팀원으로서의 모습을 증명했습니다. 특히 팔로워십 면에서는 현대적인 팀워크의 이상적인 본보기를 보여주었으며, 향후 팀원이 아닌 프로젝트 매니저로서도 큰 가능성을 지닌 인재라고 확신합니다."
 
     - image: "assets/img/testimonials/testimonials.jpg"
       name: "KS"
-      role: "Designer"
+      #role: "Designer"
       text: "프로젝트를 수행하는 동안 어려운 부분이 생겨도 포기하지 않고 끝까지 해결해내는 모습이 인상적이었습니다. 프로젝트를 시작한 이후 가장 많이 성장한 팀원인 것 같습니다."
 
     - image: "assets/img/testimonials/testimonials.jpg"
       name: "HE"
-      role: "Manager GYM"
+      #role: "Manager GYM"
       text: "막바지에 다들 지쳐있을 때, 밝은 분위기로 힘 실어줘서 고마웠어요. 끝까지 함께 달려줘서 정말 든든했어요!"
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #- image: "assets/img/testimonials/testi4-3.jpg"
+      #name: "Jennifer Smith"
+      #role: "CEO &amp; Founder"
+      #text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #- image: "assets/img/testimonials/testi4-5.jpg"
+    #  name: "Paul Freeman"
+    #  role: "Photographer"
+    # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 ### Blog [ blog ]
 #items generates from dir /_posts/*
