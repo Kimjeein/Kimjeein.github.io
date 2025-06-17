@@ -7,7 +7,7 @@ category_slug: documentation
 image: assets/img/works/children.png
 short_description: 대형어린이병원의 웹사이트 및 내부 시스템을 위한 맞춤형 개인정보처리방침 문서를 설계하고 작성한 사례입니다.
 
----
+
 
 # full details
 live_preview: https://example.com  # 실제 미리보기 링크로 교체 가능
@@ -50,6 +50,7 @@ description2:
       <li>관련 법령 조사 및 반영</li>
       <li>병원 시스템 담당자와의 협업을 통한 내용 확정</li>
     </ul>
+    ---
 
     <h3>🔖 태그 (Tags)</h3>
     <p><code>#PrivacyPolicy</code> <code>#Documentation</code> <code>#Healthcare</code> <code>#Compliance</code> <code>#Branding</code></p>
