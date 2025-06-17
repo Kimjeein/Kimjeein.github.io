@@ -31,21 +31,9 @@ description1:
 
 
 gallery:
-  - assets/img/works/hospital/003.png
-  - assets/img/works/hospital/004.png
-  - assets/img/works/hospital/005.png
-  - assets/img/works/hospital/006.png
-  - assets/img/works/hospital/007.png
-  - assets/img/works/hospital/008.png
-  - assets/img/works/hospital/009.png
-  - assets/img/works/hospital/0010.png
-  - assets/img/works/hospital/0011.png
-  - assets/img/works/hospital/0012.png
-  - assets/img/works/hospital/0013.png
-  - assets/img/works/hospital/0014.png
-  - assets/img/works/hospital/0015.png
-  - assets/img/works/hospital/0016.png
-
+  - assets/img/works/children.png
+  - assets/img/works/children1.png
+  - assets/img/works/children2.png
 # description2:
 #   title: Project Result
 #   text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
