@@ -4,7 +4,7 @@ layout: works-single
 title: 대형어린이병원 개인정보처리방침
 category: Documentation
 category_slug: documentation
-image: assets/img/works/children.png
+image: /assets/img/works/children.png
 short_description: 대형어린이병원의 웹사이트 및 내부 시스템을 위한 맞춤형 개인정보처리방침 문서를 설계하고 작성한 사례입니다.
 
 ---
