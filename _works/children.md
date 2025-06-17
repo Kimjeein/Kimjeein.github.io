@@ -11,7 +11,7 @@ short_description: 대형어린이병원의 웹사이트 및 내부 시스템을
 
 # full details
 live_preview: https://example.com  # 실제 미리보기 링크로 교체 가능
-full_image: assets/img/works/children2.png
+full_image: assets/img/works/children.png
 info:
   - label: Year
     value: 2025
