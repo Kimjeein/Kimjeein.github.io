@@ -29,8 +29,21 @@ description1:
     <p>또한, 관리자 및 담당자 검토를 위한 표준 양식을 함께 제공하여 실무 적용이 가능하도록 설계했습니다.</p>
 
 gallery:
+  - assets/img/works/002.png
   - assets/img/works/children1.png
+  - assets/img/works/004.png
+  - assets/img/works/005.png
+  - assets/img/works/006.png
+  - assets/img/works/007.png
+  - assets/img/works/008.png
+  - assets/img/works/009.png
+  - assets/img/works/010.png
   - assets/img/works/children2.png
+  - assets/img/works/012.png
+  - assets/img/works/013.png
+  - assets/img/works/014.png
+  - assets/img/works/015.png
+  - assets/img/works/016.png
 
 #description2:
 #  title: 주요 내용 및 역할
