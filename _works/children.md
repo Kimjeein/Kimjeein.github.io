@@ -50,7 +50,8 @@ description2:
       <li>관련 법령 조사 및 반영</li>
       <li>병원 시스템 담당자와의 협업을 통한 내용 확정</li>
     </ul>
-    ---
+    
 
     <h3>🔖 태그 (Tags)</h3>
     <p><code>#PrivacyPolicy</code> <code>#Documentation</code> <code>#Healthcare</code> <code>#Compliance</code> <code>#Branding</code></p>
+---
