@@ -32,26 +32,26 @@ gallery:
   - assets/img/works/children1.png
   - assets/img/works/children2.png
 
-description2:
-  title: 주요 내용 및 역할
-  text: |
-    <h3>✅ 주요 특징 (Features)</h3>
-    <ul>
-      <li>『개인정보 보호법』을 기반으로 한 정책 설계</li>
-      <li>어린이 및 보호자 중심의 쉬운 용어 사용</li>
-      <li>병원 내부 시스템 흐름에 맞춘 항목별 세분화</li>
-      <li>웹사이트, 모바일, 오프라인 수집 경로까지 반영</li>
-      <li>관리자/담당자 검토를 위한 표준화된 양식 제공</li>
-    </ul>
-
-    <h3>🙋 수행 역할 (My Role)</h3>
-    <ul>
-      <li>전반적인 문서 작성 및 구조 설계</li>
-      <li>관련 법령 조사 및 반영</li>
-      <li>병원 시스템 담당자와의 협업을 통한 내용 확정</li>
-    </ul>
+#description2:
+#  title: 주요 내용 및 역할
+#  text: |
+#    <h3>✅ 주요 특징 (Features)</h3>
+#    <ul>
+#      <li>『개인정보 보호법』을 기반으로 한 정책 설계</li>
+#      <li>어린이 및 보호자 중심의 쉬운 용어 사용</li>
+ #     <li>병원 내부 시스템 흐름에 맞춘 항목별 세분화</li>
+  #    <li>웹사이트, 모바일, 오프라인 수집 경로까지 반영</li>
+  #    <li>관리자/담당자 검토를 위한 표준화된 양식 제공</li>
+  #  </ul>
+#
+#    <h3>🙋 수행 역할 (My Role)</h3>
+ #   <ul>
+  #    <li>전반적인 문서 작성 및 구조 설계</li>
+   #   <li>관련 법령 조사 및 반영</li>
+    #  <li>병원 시스템 담당자와의 협업을 통한 내용 확정</li>
+    #</ul>
     
 
-    <h3>🔖 태그 (Tags)</h3>
-    <p><code>#PrivacyPolicy</code> <code>#Documentation</code> <code>#Healthcare</code> <code>#Compliance</code> <code>#Branding</code></p>
+    #<h3>🔖 태그 (Tags)</h3>
+    #<p><code>#PrivacyPolicy</code> <code>#Documentation</code> <code>#Healthcare</code> <code>#Compliance</code> <code>#Branding</code></p>
 ---
