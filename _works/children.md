@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "대형어린이병원 개인정보처리방침 문서 작성 사례"
-date: 2025-06-17
-categories: [Documentation, Privacy, Compliance]
-tags: [개인정보처리방침, 의료기관, 문서작성, 개인정보보호, 법률준수]
-image: assets/img/blog/childrens-hospital-privacy.jpg
+# preview details
+layout: works-single
+title: 대형어린이병원 개인정보처리방침
+category: Documentation
+category_slug: documentation
+image: assets/img/works/children.jpg
+short_description: 대형어린이병원의 웹사이트 및 내부 시스템을 위한 맞춤형 개인정보처리방침 문서를 설계하고 작성한 사례입니다.
+
 ---
 
 ## 📄 대형어린이병원 개인정보처리방침  
