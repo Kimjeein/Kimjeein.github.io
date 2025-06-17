@@ -4,7 +4,7 @@ layout: works-single
 title: 대형어린이병원 개인정보처리방침
 category: Documentation
 category_slug: documentation
-image: assets/img/works/children.jpg
+image: assets/img/works/children.png
 short_description: 대형어린이병원의 웹사이트 및 내부 시스템을 위한 맞춤형 개인정보처리방침 문서를 설계하고 작성한 사례입니다.
 
 ---
@@ -15,6 +15,12 @@ short_description: 대형어린이병원의 웹사이트 및 내부 시스템을
 ### 📝 Overview  
 대형어린이병원의 웹사이트 및 내부 시스템에서 수집되는 개인정보에 대한 처리 방침을 체계적으로 정리한 문서를 작성했습니다.  
 관련 법령을 참고하여 **수집 항목**, **이용 목적**, **보유 및 파기 절차**, **위탁 및 제3자 제공**, **정보주체의 권리** 등에 대한 내용을 명확하게 구성하였습니다.
+
+### 📸 Screenshots  
+
+![제3자](assets/img/works/children1.png)
+![개인정보 보호책임자](assets/img/works/children2.png)
+
 
 ### ✅ Features  
 - 『개인정보 보호법』을 기반으로 한 정책 설계  
