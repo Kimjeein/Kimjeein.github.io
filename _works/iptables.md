@@ -28,7 +28,7 @@ description1:
 
 
 gallery:
-  - assets/img/works/iptables1.png
+ - assets/img/works/iptables1.png
  - assets/img/works/iptables2.png
  - assets/img/works/iptables3.png
  - assets/img/works/iptables4.png
