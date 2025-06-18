@@ -44,7 +44,7 @@ description2:
     <p>테스트는 텍스트, 이미지, 문서 파일이 포함된 모의 디렉토리를 구성하여 진행하였으며, 복호화 실패 시 데이터 손실 가능성까지 포함하여 시뮬레이션했습니다.</p>
     <p>감염 행위 분석을 위해 Wireshark, Process Explorer, Sysinternals 등의 도구를 활용하였고, 실행 흐름 및 이상 행위 탐지를 중심으로 패턴을 정리했습니다.</p>
 
-video:
-  poster: assets/img/works/ransom.png
-  id: Gu6z6kIukgg
+#video:
+#  poster: assets/img/works/ransom.png
+#  id: Gu6z6kIukgg
 ---
