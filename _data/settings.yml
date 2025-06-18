@@ -36,19 +36,3 @@ header:
 footer:
   developer: "Developed by <strong>Hej</strong>"
   copyright: "<strong>Hej</strong>. All rights reserved"
-
-### Portfolio Filters Settings
-#portfolio:
-  #layout: "list" # select works layout options: "Grid" or "List"
-  #filters:
-    #- name: "UI UX Design"
-      #slug: "ui-ux-design"
-
-    #- name: "Photography"
-      #slug: "photography"
-
-    #- name: "Development"
-      #slug: "development"
-
-    #- name: "Branding"
-      #slug: "branding"
