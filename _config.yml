@@ -31,7 +31,7 @@
 # basic settings
 title: "김지인의 기술블로그"
 email: "your-email@example.com"
-description: "내게 능력주시는 자 안에서 내가 능치 못할 일이 없느니라"
+description: "기록하며 배우고 노력하며 성장합니다."
 author: "김지인"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/Kimjeein" # the base hostname & protocol for your site, e.g. http://example.com
