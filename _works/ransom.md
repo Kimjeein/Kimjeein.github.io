@@ -27,6 +27,7 @@ description1:
 
 gallery:
   - assets/img/works/ransom1.png
+  - assets/img/works/ransom2.png
   - assets/img/works/ransom3.png
   - assets/img/works/ransom4.png
   - assets/img/works/ransom5.png
