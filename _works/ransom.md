@@ -9,7 +9,7 @@ short_description: 암호화 기반 랜섬웨어를 직접 구현하고 분석�
 
 # full details
 # live_preview: https://bslthemes.com
-full_image: assets/img/works/ransom1.png
+full_image: assets/img/works/ransom.png
 info:
   - label: Year
     value: 2025
@@ -30,6 +30,13 @@ gallery:
   - assets/img/works/ransom3.png
   - assets/img/works/ransom4.png
   - assets/img/works/ransom5.png
+  - assets/img/works/ransom6.png
+  - assets/img/works/ransom7.png
+  - assets/img/works/ransom8.png
+  - assets/img/works/ransom9.png
+  - assets/img/works/ransom10.png
+  - assets/img/works/ransom11.png
+  - assets/img/works/ransom12.png
 
 description2:
   title: Features & Flow
